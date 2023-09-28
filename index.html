@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxicons.min.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <ul class="navbar" >
+                <a href="#" class="logo">fz<span>.KHOURSSA</span></a>
+                <li class="nav-item"><a href="#about">About Me</a></li>
+                <li class="nav-item"><a href="#skills-sct">Skills</a></li>
+                <li class="nav-item"><a href="#project">Projects</a></li>
+                <li class="nav-item"><a href="#">Recommendations</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="section-1">
+        <div class="home">
+            <div class="sub-title">
+                <h1>Hello, I'm <br>a full stack developer </h1>
+            </div>
+                <div class="btn-test">
+                    <a class="btn-about" href="#about">About Me</a>
+                </div>
+        </div>
+    </section>
+    <!-- about me section -->
+    <section class="aboutMe" id="about">
+            <div class="info-img">
+                <img src="/assets/about.jpg">
+            </div>
+            <div class="info-text" >
+                <h1 >Welcome! I'm Fatima Zahra, </h1>
+                <p>
+                    I'am 22-year-old full-stack developer with 2 years of hands-on experience. Passionate about all things tech, I specialize in creating seamless digital experiences. From sleek front-end interfaces to sturdy back-end structures, I'm here to turn ideas into reality. Take a tour of my portfolio to witness how I fuse creativity with code to craft engaging web applications.
+                </p>
+            </div>
+    </section>
+        <!-- skills section : -->
+    <section class="skills-sct" id="skills-sct">
+        <div class="skills-title">
+            <h2>Skills</h2>
+        </div>
+        <div class="skl-container">
+            <div class="skills skills-1">
+                <img src="/assets/card-1.png" alt="">
+                <h2>HTML</h2>
+                <p>2 years experience</p>
+            </div>
+            <div class="skills skills-2">
+                <img src="/assets/card-2.png" alt="">
+                <h2>CSS</h2>
+                <p>2 years experience</p>
+            </div>
+            <div class="skills skills-3">
+                <img src="/assets/card-3.png" alt="">
+                <h2>JS</h2>
+                <p>2 years experience</p>
+            </div>
+            <div class="skills skills-4">
+                <img src="/assets/card-4.png" alt="">
+                <h2>JAVA</h2>
+                <p>3 years experience</p>
+            </div>
+        </div>
+
+    </section>
+    <section  id="project">
+        <div class="text-center">
+            <h2>My projects</h2>
+        </div>
+        <div class="service-item">
+            <div class="service-box">
+                <h3>Project 1</h3>
+                <P> description project 1 </P>
+            </div>
+            <div class="service-box">
+                <h3>Project 2</h3>
+                <P> description project 2</P>
+            </div>
+            <div class="service-box">
+                <h3>Project 3</h3>
+                <P>description project 3</P>
+            </div>
+        </div>
+    </section>
+    <!-- reco section : -->
+    <section class="reco">
+        <div class="text_center">
+            <h2>Recommendations</h2>
+        </div>
+        <div class="service_item">
+            <div class="service_box">
+                <P>- I am thoroughly impressed with the work done by Fatima Zahra on my website. They demonstrated exceptional expertise and attention to detail throughout the project. The website they created not only met but exceeded my expectations
+                </P>
+            </div>
+            <div class="service_box">
+                <P>- Fatima Zahra delivered a fantastic website in record time. Their efficiency and commitment to meeting deadlines were outstanding. The website is not only visually appealing but also functions seamlessly.</P>
+            </div>
+            <div class="service_box">
+                <P>- Fatima Zahra brought a fresh and creative perspective to my website project. They demonstrated a unique flair for design and user experience, resulting in a website that stands out from the crowd. </P>
+            </div>
+            <div class="service_box">
+                <P>- Fatima Zahra was a true problem solver throughout the website development process. They tackled complex challenges with ease and always found effective solutions. </P>
+            </div>
+        </div>
+    </section>
+    <!-- form -->
+    <!-- <section class="form" id="#form">
+        <div class="div-form">
+            <h1>Leave a Recommendations</h1>
+            <form>
+                <input type="text" placeholder="name">
+                <input type="text" placeholder="message"><br>
+                <button>submit</button>
+                
+            </form>
+        </div>
+    </section> -->
+    <section class="form" id="form">
+        <div class="div-form">
+            <h1>Leave a Recommendation</h1>
+            <form id="recommendation-form">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Message"> <br>
+                <button type="submit" id="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    
+    <div id="popup" class="popup">
+        <p>Thank you for leaving a recommendation!</p>
+        <button id="popup-button" class="popup-button">OK</button>
+    </div>
+        <!-- scroll from bottom to top -->
+        <a href="#" class="scroll-top">
+            <i class="bx bx-up-arrow-alt"></i>
+        </a>
+    <script src="script.js"></script>
+</body>
+</html>
